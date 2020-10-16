@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <script>
+
+window.addEventListener("DOMContentLoaded", event => {
+  const audio = document.querySelector("audio");
+  audio.volume = 0.7;
+  audio.play();
+});
+  </script>
+
+        <title>cym.mg</title>
+        <style>
+            body
+            {
+                background-color: hotpink;
+                margin-left: 500px;
+            }
+            h1
+            {
+                font-size: 100px;
+                text-align: center;
+                animation: h1 6s infinite;
+            }
+            #cuadrado1
+            {
+                border-radius: 50%;
+                width: 10px;
+                height: 10px;
+                background: red;
+                position: relative;
+                animation: movin 7s
+                infinite;
+                padding: 500px;
+                animation-direction: reverse;
+            }
+            #cuadrado2
+            {
+                border-radius: 50%;
+                align-items: right;
+                width: 10px;
+                height: 10px;
+                background: green;
+                position: absolute;
+                animation: movin2 9s 
+                infinite;
+                padding: 500px;
+                animation-direction: reverse;
+            }
+            #cuadrado3
+            {
+                border-radius: 50%;
+                top: 0px;
+                left: 1920px;
+                width: 10px;
+                height: 10px;
+                background: blue;
+                position: absolute;
+                animation: movin 11s
+                infinite;
+                padding: 500px;
+                animation-direction: reverse;
+            }
+            #cuadrado4
+            {
+                border-radius: 50%;
+                left: 1920px;
+                width: 0px;
+                height: 0px;
+                background: yellow;
+                position: absolute;
+                animation: movin4 13s
+                infinite;
+                padding: 500px;
+                animation-direction:normal;
+            }
+            
+            @keyframes movin {
+                0% {top: 1000px; left: 500px;}
+                50% {top: 5px; background: transparent; left:1000px}
+                100% {top: 0px; padding: 900px;}     
+            }
+            @keyframes movin2 {
+                20% {top: 500px;}
+                100% {top: 100px; width: 100px; height: px; background: transparent;}
+                0% {top: 0px; width: 0px;} 
+            }
+            @keyframes movin3 {
+                0% {top: 0px; left: 500px;}
+                50% {top: 600px; width: 100px; height: px; background: transparent;}
+                100% {top: 0px; width: 0px; padding: 1000px;} 
+            }
+            @keyframes movin4 {
+                0% {top: 0px; left: 1920px;}
+                50% {top: 600px; width: 100px; height: px; background: transparent;}
+                100% {top: 0px; width: 0px; left: 1000px;} 
+            }
+            @keyframes h1 {
+                0% {top: 0px;}
+                50% {padding-top: 100px; padding-left: 100px;}
+                100% {top: 0px;}
+            }
+        </style>
+    </head>
+    <body>
+        <div id="audio">
+<audio id="sonido1" src="G:\WAV\voces Age of Empires\Nueva carpeta\File 000038.mp3" preload="auto"></audio></div>
+        
+        <div id="cuadrado1"><h1>HO</h1><div id="cuadrado2"><h1>LA</h1></div></div>
+        <div id="cuadrado3"><h1>MUN</h1><div id="cuadrado4"><h1>DO</h1></div></div>
+        
+    </body>
+</html>
+
+opacity %
+transparency%
+ovelapping --> 
+section
+article
+p
+audio --> <div id="audio">
+<audio id="sonido1" src="" preload="auto"></audio></div>
+machine learning, funcionan el phyton, colab
